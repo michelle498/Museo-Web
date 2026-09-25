@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-labelledby="t d">
+  <title id="t">Sketchpad y el lápiz óptico</title>
+  <desc id="d">Pantalla CRT con figuras geométricas y un lápiz óptico que las manipula.</desc>
+  <rect width="900" height="520" rx="28" fill="#121f2b"/>
+  <rect x="95" y="90" width="470" height="300" rx="22" fill="#d3f7ee" stroke="#84d9c9" stroke-width="10"/>
+  <rect x="190" y="392" width="280" height="20" rx="10" fill="#3b5566"/>
+  <rect x="250" y="412" width="160" height="30" rx="12" fill="#61798a"/>
+  <g fill="none" stroke="#14456e" stroke-width="6">
+    <rect x="150" y="130" width="120" height="85"/>
+    <circle cx="360" cy="175" r="46"/>
+    <polygon points="190,310 290,235 360,310"/>
+    <line x1="420" y1="135" x2="500" y2="215"/>
+    <line x1="500" y1="135" x2="420" y2="215"/>
+    <line x1="256" y1="172" x2="360" y2="175" stroke-dasharray="8 10"/>
+  </g>
+  <circle cx="246" cy="172" r="10" fill="#ff7b7b"/>
+  <circle cx="360" cy="175" r="10" fill="#48c7f8"/>
+  <circle cx="456" cy="176" r="10" fill="#2bd6b6"/>
+  <g>
+    <path d="M660 140 C710 140, 760 165, 772 230 C782 286, 748 332, 690 346" fill="#ffd8c2"/>
+    <rect x="604" y="213" width="215" height="18" rx="9" fill="#f5c4a5" transform="rotate(-28 604 213)"/>
+    <rect x="618" y="209" width="165" height="11" rx="5" fill="#ffe8a6" transform="rotate(-28 618 209)"/>
+    <polygon points="790,135 812,145 791,161" fill="#f2f2f2"/>
+  </g>
+  <path d="M748 170 L505 213" stroke="#ffdf69" stroke-width="3" stroke-dasharray="7 8"/>
+  <rect x="590" y="84" width="220" height="34" rx="17" fill="#9f86ff" opacity="0.16"/>
+  <text x="612" y="107" font-family="Arial, sans-serif" font-size="22" fill="#e7e0ff">Interacción directa con el dibujo</text>
+</svg>

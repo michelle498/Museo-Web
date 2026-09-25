@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Museo Web de la Evolución Gráfica: cinco momentos históricos, una aplicación real, laboratorio de color, algoritmo RGB a HSV, glosario y conclusión."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Museo Web de la Evolución Gráfica · Saraí Ceballos</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="header-wrap">
+        <p class="eyebrow">Museo Web de la Evolución Gráfica</p>
+        <nav aria-label="Navegación principal">
+          <a href="#evolucion">Evolución</a>
+          <a href="#aplicacion">Aplicación</a>
+          <a href="#laboratorio">Color</a>
+          <a href="#algoritmo">Algoritmo</a>
+          <a href="#glosario">Glosario</a>
+          <a href="#fuentes">Fuentes</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero pastel-hero">
+        <div class="hero-copy">
+          <p class="hero-label">Museo Web</p>
+          <h1>De los primeros gráficos al color digital interactivo</h1>
+          <p class="lead">
+            La graficación por computadora es la forma de representar, organizar y modificar imágenes,
+            figuras o datos con ayuda de una computadora para que una persona pueda observarlos,
+            interpretarlos o usarlos para tomar decisiones.
+          </p>
+          <p><strong>Autora:</strong> Saraí Ceballos</p>
+        </div>
+        <div class="hero-stack">
+          <article class="hero-card meme-card">
+            <img src="./assets/meme-inicio.png" width="716" height="711" alt="Meme de un personaje turquesa con expresión dramática, usado como apertura visual ligera del proyecto." />
+          </article>
+          <article class="hero-card intro-card">
+            <div class="mini-screen" aria-hidden="true">
+              <span class="dot dot-1"></span>
+              <span class="dot dot-2"></span>
+              <span class="dot dot-3"></span>
+              <div class="wave wave-a"></div>
+              <div class="wave wave-b"></div>
+            </div>
+            <p>Un mismo tema puede verse como línea, mapa, píxel, diagrama o interfaz. Esa es la idea central que guía todo el museo.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="evolucion" class="section-pink wave-divider">
+        <div class="section-heading">
+          <p class="kicker">Sección 1</p>
+          <h2>Cinco momentos de la evolución gráfica</h2>
+          <p>
+            Cada ficha resume un problema anterior, el cambio técnico que apareció, su impacto y un ejemplo
+            actual donde esa posibilidad sigue presente.
+          </p>
+        </div>
+
+        <div class="timeline-grid">
+          <article class="moment-card">
+            <img
+              src="./assets/01-plotter-visual.svg"
+              width="900"
+              height="520"
+              alt="Ilustración de un trazador dibujando una gráfica de líneas sobre una hoja para representar datos visualmente."
+            />
+            <div class="moment-body">
+              <p class="moment-year">Primeros gráficos por computadora</p>
+              <h3>La imagen como salida: del listado al trazador y la pantalla</h3>
+              <p><strong>Limitación anterior:</strong> Cuando los resultados salían en tarjetas perforadas o listados de números, era difícil reconocer patrones, tendencias o relaciones dentro de muchos datos.</p>
+              <p><strong>Cambio técnico:</strong> Investigué el plóter. Este dispositivo podía dibujar líneas y figuras sobre papel, por ejemplo gráficas, diagramas y cuadrículas que representaban visualmente la información.</p>
+              <p><strong>Impacto:</strong> La representación visual ayudó a reconocer con más facilidad los patrones en los datos y permitió interpretar mejor formas, trayectorias y relaciones.</p>
+              <p><strong>Ejemplo actual:</strong> El Administrador de tareas de una computadora muestra gráficas para observar los cambios en la actividad del CPU y la memoria.</p>
+            </div>
+          </article>
+
+          <article class="moment-card">
+            <img
+              src="./assets/02-sketchpad.svg"
+              width="900"
+              height="520"
+              alt="Ilustración de una pantalla CRT con figuras geométricas y una mano usando un lápiz óptico para moverlas."
+            />
+            <div class="moment-body">
+              <p class="moment-year">1963</p>
+              <h3>Sketchpad: dibujos geométricos interactivos</h3>
+              <p><strong>Limitación anterior:</strong> Antes era difícil crear y corregir un dibujo geométrico completo, porque las computadoras trabajaban sobre todo con comandos o tarjetas perforadas y no se manipulaba directamente la imagen en pantalla.</p>
+              <p><strong>Cambio técnico:</strong> Sketchpad combinó programa, pantalla CRT y lápiz óptico. Permitía ver el dibujo en tiempo real, seleccionar objetos, moverlos, copiarlos, escalarlos, rotarlos, agruparlos y definir restricciones entre ellos.</p>
+              <p><strong>Impacto:</strong> Ayudó a trasladar ideas de diseño gráfico al diseño digital de una manera más flexible, precisa y veloz, porque el dibujo podía editarse directamente.</p>
+              <p><strong>Ejemplo actual:</strong> Adobe Illustrator permite crear y modificar figuras directamente sobre el lienzo de trabajo.</p>
+              <div class="video-card">
+                <h4>Video sugerido</h4>
+                <p>Este video muestra a Sketchpad en funcionamiento y ayuda a visualizar por qué fue tan importante para la interacción directa con dibujos geométricos.</p>
+                <div class="video-wrap">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/495nCzxM9PI?start=72"
+                    title="Sketchpad, by Dr. Ivan Sutherland with comments by Alan Kay"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video-link"><a href="https://www.youtube.com/watch?v=495nCzxM9PI&t=72s" target="_blank" rel="noopener noreferrer">Abrir el video en YouTube</a></p>
+              </div>
+            </div>
+          </article>
+
+          <article class="moment-card">
+            <img
+              src="./assets/03-raster.svg"
+              width="900"
+              height="520"
+              alt="Ilustración de una fotografía convertida en una cuadrícula de píxeles de distintos colores."
+            />
+            <div class="moment-body">
+              <p class="moment-year">Computación personal</p>
+              <h3>Imágenes rasterizadas: cada píxel guarda color</h3>
+              <p><strong>Limitación anterior:</strong> Un sistema vectorial describe líneas y figuras, pero retocar detalles de una fotografía, como color, luz, sombras o texturas, es difícil si la imagen no está guardada píxel por píxel.</p>
+              <p><strong>Cambio técnico:</strong> Las imágenes rasterizadas guardan información de color en cada píxel. Así, una imagen se organiza como una cuadrícula de puntos donde cada posición tiene valores numéricos.</p>
+              <p><strong>Impacto:</strong> Al guardar cada píxel, se puede editar una zona específica de la fotografía y modificar detalles finos como brillo, color o pequeñas áreas de la imagen.</p>
+              <p><strong>Ejemplo actual:</strong> Photoshop permite cambiar píxeles o regiones concretas dentro de una fotografía digital.</p>
+            </div>
+          </article>
+
+          <article class="moment-card">
+            <img
+              src="./assets/04-gpu.svg"
+              width="900"
+              height="520"
+              alt="Ilustración de una tarjeta gráfica conectada a una pantalla con un videojuego y un indicador de cuadros por segundo."
+            />
+            <div class="moment-body">
+              <p class="moment-year">Hardware especializado</p>
+              <h3>GPU y gráficos en tiempo real</h3>
+              <p><strong>Limitación anterior:</strong> Si una aplicación o videojuego tiene retraso, las acciones tardan en verse en pantalla y eso afecta la experiencia de uso, porque se siente lag o respuesta lenta.</p>
+              <p><strong>Cambio técnico:</strong> La GPU es un procesador especializado que acelera los cálculos gráficos. Tiene muchos núcleos y puede realizar muchas operaciones simultáneamente para representar video o gráficos con más rapidez.</p>
+              <p><strong>Impacto:</strong> Los movimientos y acciones se vuelven más fluidos, disminuyen los retrasos y la imagen puede actualizarse rápidamente en respuesta a lo que hace una persona.</p>
+              <p><strong>Ejemplo actual:</strong> Un videojuego de disparos necesita responder en tiempo real a los movimientos y decisiones del jugador.</p>
+            </div>
+          </article>
+
+          <article class="moment-card">
+            <img
+              src="./assets/05-webgl.svg"
+              width="900"
+              height="520"
+              alt="Ilustración de una ventana de navegador con una gráfica 2D y un cubo 3D para representar Canvas y WebGL."
+            />
+            <div class="moment-body">
+              <p class="moment-year">Canvas desde 2004 · WebGL desde 2011</p>
+              <h3>Gráficos en el navegador sin complementos</h3>
+              <p><strong>Limitación anterior:</strong> Algunos sitios dependían de complementos externos. Eso causaba problemas de instalación, compatibilidad, bloqueos del navegador o falta de soporte cuando el complemento quedaba desactualizado.</p>
+              <p><strong>Cambio técnico:</strong> Canvas permite dibujar gráficos 2D con JavaScript. WebGL usa el procesador gráfico para mostrar gráficos 2D y 3D acelerados por hardware dentro del navegador.</p>
+              <p><strong>Impacto:</strong> Un sitio puede ofrecer visualizaciones, juegos y experiencias interactivas sin pedir que la persona instale un complemento adicional.</p>
+              <p><strong>Ejemplo actual:</strong> Shell Shockers funciona en el navegador y muestra gráficos interactivos sin depender de complementos.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="aplicacion" class="section-blue wave-divider">
+        <div class="section-heading">
+          <p class="kicker">Sección 2</p>
+          <h2>Aplicación real: planificación de rutas</h2>
+          <p>
+            En esta actividad analicé cómo una aplicación de mapas convierte datos en una representación visual
+            que ayuda a una persona a elegir un trayecto.
+          </p>
+        </div>
+
+        <div class="application-layout">
+          <article class="info-card">
+            <h3>Cadena de análisis</h3>
+            <ul class="arrow-list">
+              <li><strong>Aplicación:</strong> una aplicación de mapas como Google Maps para planear una ruta entre dos puntos.</li>
+              <li><strong>Usuario principal:</strong> una persona que necesita encontrar una ruta óptima desde un origen hasta un destino.</li>
+              <li><strong>Problema:</strong> necesita decidir qué trayecto seguir caminando desde el Museo Comunitario hasta el Parque del Lago.</li>
+              <li><strong>Datos de entrada:</strong> origen: Museo Comunitario; destino: Parque del Lago; medio: a pie.</li>
+              <li><strong>Representación visual:</strong> el origen se muestra con la letra O y el destino con la letra D. La ruta A usa una línea continua y la ruta B una línea discontinua. Además, se muestran tiempo, distancia y nombres de calles, por lo que se distinguen sin depender solo del color.</li>
+              <li><strong>Decisión o acción:</strong> la persona puede comparar las rutas y elegir cuál seguir según tiempo, distancia y recorrido.</li>
+              <li><strong>Modelo de color propuesto:</strong> RGB, porque la pantalla se muestra en un dispositivo digital y este modelo organiza el color con rojo, verde y azul.</li>
+            </ul>
+          </article>
+
+          <article class="map-card">
+            <img
+              src="./assets/ruta-mapa-real.jpg"
+              width="900"
+              height="620"
+              alt="Mapa de la actividad con origen Museo Comunitario, destino Parque del Lago, ruta A en línea continua azul y ruta B en línea punteada gris."
+            />
+            <div class="route-grid">
+              <div>
+                <h3>Ruta A</h3>
+                <p><strong>12 minutos</strong> · 900 metros</p>
+                <p>Calle del Museo → Avenida Central → Paseo del Lago</p>
+              </div>
+              <div>
+                <h3>Ruta B</h3>
+                <p><strong>15 minutos</strong> · 1.1 kilómetros</p>
+                <p>Calle del Museo → Calle del Olmo → Calle del Bosque → Avenida del Lago → Paseo del Lago</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="laboratorio" class="section-cream wave-divider">
+        <div class="section-heading">
+          <p class="kicker">Sección 3</p>
+          <h2>Laboratorio de color con predicción</h2>
+          <p>
+            Aquí relacioné lo que se observa en un color con los números que lo describen. En cada experimento
+            escribí una predicción, observé datos y concluí usando máximo, mínimo, delta y modelos de color.
+          </p>
+        </div>
+
+        <div class="lab-summary">
+          <div class="chip">RGB</div>
+          <div class="chip">CMY</div>
+          <div class="chip">HSV</div>
+          <div class="chip">HSL</div>
+          <div class="chip">máximo</div>
+          <div class="chip">mínimo</div>
+          <div class="chip">delta</div>
+        </div>
+
+        <article class="experiment-card">
+          <h3>Práctica con imagen base: señal costera</h3>
+          <p><strong>Predicción:</strong> Predije que la zona del cielo tendría una saturación relativamente alta porque es un color azul intenso, mientras que una zona clara como el Sol tendría una saturación menor porque se acerca más al blanco.</p>
+          <p><strong>Dato observado:</strong> En la región del cielo observé RGB(79, 151, 231), CMY(69%, 40.8%, 9.4%), HSV(211.6°, 65.8%, 90.6%) y HSL(211.6°, 76%, 60.8%). El canal mayor fue B = 231 y el menor fue R = 79, por lo que el delta fue 152.</p>
+          <p><strong>Conclusión basada en valores:</strong> La diferencia entre los canales confirmó que el cielo no es un color gris, porque el máximo y el mínimo no coinciden. Además, al pasar a escala de grises todavía se distinguen regiones por sus diferentes niveles de luminosidad.</p>
+        </article>
+
+        <div class="experiment-grid">
+          <article class="experiment-card">
+            <h3>Experimento 1 · Cuando desaparece el tono</h3>
+            <p><strong>Predicción:</strong> Si R, G y B tienen el mismo valor, entonces el máximo y el mínimo serán iguales, el delta será 0 y la saturación también será 0.</p>
+            <p><strong>Datos:</strong> Negro RGB(0, 0, 0) → máximo 0, mínimo 0, delta 0, saturación 0%. Blanco RGB(255, 255, 255) → máximo 255, mínimo 255, delta 0, saturación 0%. Gris RGB(128, 128, 128) → máximo 128, mínimo 128, delta 0, saturación 0%.</p>
+            <p><strong>Conclusión basada en valores:</strong> En los tres casos los canales fueron iguales, por eso el delta fue 0 y el color perdió tono. Lo que cambió fue el nivel del valor: negro 0%, gris 50.2% y blanco 100%.</p>
+          </article>
+
+          <article class="experiment-card">
+            <h3>Experimento 2 · Mismo sector, distinta intensidad</h3>
+            <p><strong>Predicción:</strong> Si dos colores pertenecen al mismo sector del círculo de tono, su H será parecida, aunque cambien su valor y la intensidad de sus canales RGB.</p>
+            <p><strong>Datos:</strong> Color 1: RGB(64, 128, 192) → máximo 192, mínimo 64, delta 128, HSV(210°, 66.7%, 75.3%). Color 2: RGB(32, 64, 96) → máximo 96, mínimo 32, delta 64, con el mismo sector azul.</p>
+            <p><strong>Conclusión basada en valores:</strong> Los dos colores se mantuvieron en el sector azul, pero el segundo tuvo menor valor máximo y menor delta. Eso hizo que se viera menos intenso y más oscuro, sin cambiar mucho su tono general.</p>
+          </article>
+
+          <article class="experiment-card">
+            <h3>Experimento 3 · Un color intermedio</h3>
+            <p><strong>Predicción:</strong> Si los tres canales son diferentes y el azul es el mayor, entonces habrá un tono definido y una saturación mayor que 0.</p>
+            <p><strong>Datos:</strong> RGB(128, 128, 192) → máximo 192, mínimo 128 y delta 64. El canal azul es el mayor, mientras que rojo y verde tienen el mismo valor menor.</p>
+            <p><strong>Conclusión basada en valores:</strong> Como el máximo y el mínimo no fueron iguales, apareció un tono definido y el color no fue acromático. La diferencia de 64 entre máximo y mínimo confirma que hay separación entre canales y por eso existe saturación.</p>
+          </article>
+        </div>
+
+        <article class="reflection-card">
+          <h3>Corrección conceptual</h3>
+          <p><strong>Antes pensaba que…</strong> cambiar los valores RGB solo cambiaba el color visible, pero no tenía claro cómo se relacionaban con el tono y la saturación.</p>
+          <p><strong>Después observé que…</strong> cuando R = G = B, como en RGB(128, 128, 128), el máximo y el mínimo coinciden y el delta es 0. En cambio, en el cielo RGB(79, 151, 231) el azul fue el mayor y el delta fue 152.</p>
+          <p><strong>Esto cambió mi explicación porque…</strong> ahora entiendo que la diferencia entre máximo y mínimo ayuda a describir la saturación, y que el valor V depende del canal más alto, mientras que el tono necesita una rama distinta según cuál canal sea el máximo.</p>
+        </article>
+      </section>
+
+      <section id="algoritmo" class="section-pink wave-divider">
+        <div class="section-heading">
+          <p class="kicker">Sección 4</p>
+          <h2>De la fórmula al algoritmo</h2>
+          <p>
+            Después de observar el laboratorio, convertí los cálculos de RGB a HSV en una ruta que una
+            computadora puede seguir. Luego la programé y la probé en la Forja.
+          </p>
+        </div>
+
+        <div class="algorithm-layout">
+          <article class="info-card">
+            <h3>Pseudocódigo</h3>
+            <ol class="step-list">
+              <li>La función recibe tres valores de entrada: R, G y B, cada uno entre 0 y 255, y tendrá como salida los valores H, S y V.</li>
+              <li>La función normaliza los tres canales dividiendo R, G y B entre 255 para llevarlos a una escala de 0 a 1.</li>
+              <li>La función identifica el valor máximo, el valor mínimo y calcula el delta restando el mínimo al máximo.</li>
+              <li>Si el delta es igual a 0, establece H en 0 porque no existe un tono definido y evita intentar ese cálculo.</li>
+              <li>Si el delta es diferente de 0, determina cuál canal es el máximo y usa la rama correspondiente para calcular el tono.</li>
+              <li>Calcula la saturación usando delta y el valor máximo. Si el máximo fuera 0, establece S en 0 para evitar una división inválida.</li>
+              <li>Calcula V a partir del canal máximo y lo convierte a porcentaje.</li>
+              <li>Si el tono queda fuera del intervalo de 0° a 360°, lo ajusta hasta dejarlo dentro de ese rango.</li>
+              <li>Finalmente devuelve los tres resultados en el orden H, S y V, con H en grados y S y V en porcentaje.</li>
+            </ol>
+          </article>
+
+          <article class="info-card">
+            <h3>Ruta explicada con RGB(64, 128, 192)</h3>
+            <p>Primero normalicé los canales dividiendo cada valor entre 255: R = 64/255 ≈ 0.251, G = 128/255 ≈ 0.502 y B = 192/255 ≈ 0.753.</p>
+            <p>Después comparé los tres valores para obtener el máximo y el mínimo. El Cmáx fue 0.753 y correspondió al azul; el Cmín fue 0.251 y correspondió al rojo.</p>
+            <p>Luego calculé el delta: Δ = 0.753 − 0.251 ≈ 0.502.</p>
+            <p>Para V usé el canal máximo: V = 0.753 × 100 ≈ 75.3%. Como Cmáx no es 0, calculé S = Δ/Cmáx × 100 ≈ 66.7%.</p>
+            <p>Como el canal máximo fue azul, utilicé su rama para H y obtuve aproximadamente 210°. No fue necesario ajustar el tono porque ya estaba dentro del intervalo de 0° a 360°.</p>
+            <p>Con un redondeo a un decimal, el resultado fue HSV(210°, 66.7%, 75.3%).</p>
+            <p><strong>Caso límite importante:</strong> si delta = 0, entonces R, G y B son iguales, el color es acromático, H se registra como 0 por convenio y se evita el cálculo del tono.</p>
+          </article>
+        </div>
+
+        <article class="code-block-wrap">
+          <h3>Función probada en JavaScript</h3>
+          <pre><code>function convertRGBtoHSV(r, g, b) {
+  const red = r / 255;
+  const green = g / 255;
+  const blue = b / 255;
+
+  const max = Math.max(red, green, blue);
+  const min = Math.min(red, green, blue);
+  const delta = max - min;
+
+  let h = 0;
+  let s = 0;
+  let v = max * 100;
+
+  if (delta === 0) {
+    h = 0;
+  } else if (max === red) {
+    h = 60 * (((green - blue) / delta) % 6);
+  } else if (max === green) {
+    h = 60 * (((blue - red) / delta) + 2);
+  } else {
+    h = 60 * (((red - green) / delta) + 4);
+  }
+
+  if (h &lt; 0) {
+    h += 360;
+  }
+
+  if (max === 0) {
+    s = 0;
+  } else {
+    s = (delta / max) * 100;
+  }
+
+  return [h, s, v];
+}</code></pre>
+        </article>
+
+        <article class="test-table-card">
+          <h3>Pruebas diseñadas antes de programar</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Entrada fija</th>
+                  <th>Salida HSV esperada</th>
+                  <th>Qué comportamiento comprueba</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>RGB(0, 0, 0)</td>
+                  <td>0°, 0%, 0%</td>
+                  <td>Caso acromático con delta = 0 y máximo = 0</td>
+                </tr>
+                <tr>
+                  <td>RGB(255, 255, 255)</td>
+                  <td>0°, 0%, 100%</td>
+                  <td>Caso acromático con delta = 0</td>
+                </tr>
+                <tr>
+                  <td>RGB(255, 0, 0)</td>
+                  <td>0°, 100%, 100%</td>
+                  <td>Rama del canal máximo rojo</td>
+                </tr>
+                <tr>
+                  <td>RGB(0, 255, 0)</td>
+                  <td>120°, 100%, 100%</td>
+                  <td>Rama del canal máximo verde</td>
+                </tr>
+                <tr>
+                  <td>RGB(64, 128, 192)</td>
+                  <td>210°, 66.7%, 75.3%</td>
+                  <td>Rama del canal máximo azul y revisión del ajuste de tono</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="result-note"><strong>Resultado en la Forja:</strong> la función fue aceptada por las cuatro categorías ocultas del juez.</p>
+        </article>
+      </section>
+
+      <section id="glosario" class="section-blue wave-divider">
+        <div class="section-heading">
+          <p class="kicker">Sección 5</p>
+          <h2>Glosario</h2>
+          <p>
+            Este glosario resume términos importantes de la misión con palabras propias y un ejemplo breve.
+          </p>
+        </div>
+
+        <div class="glossary-grid">
+          <article><h3>Píxel</h3><p>Es una posición dentro de una imagen rasterizada donde se guardan valores de color. <strong>Ejemplo:</strong> en una fotografía digital cada cuadrito corresponde a un píxel.</p></article>
+          <article><h3>RGBA</h3><p>Es el orden en que un arreglo guarda rojo, verde, azul y alfa. <strong>Ejemplo:</strong> [55, 230, 193, 255] representa un color y su opacidad.</p></article>
+          <article><h3>Canal alfa</h3><p>Indica la opacidad de un píxel. <strong>Ejemplo:</strong> alfa 255 significa opacidad completa.</p></article>
+          <article><h3>Normalizar</h3><p>Es convertir un valor de 0–255 a una escala de 0–1. <strong>Ejemplo:</strong> 128/255 ≈ 0.502.</p></article>
+          <article><h3>RGB</h3><p>Modelo de color que usa rojo, verde y azul. <strong>Ejemplo:</strong> las pantallas muestran color usando combinaciones de estos tres componentes.</p></article>
+          <article><h3>CMY</h3><p>Modelo que usa cian, magenta y amarillo como complementos del RGB normalizado. <strong>Ejemplo:</strong> ayuda a comparar una mezcla sustractiva ideal con la mezcla de luz.</p></article>
+          <article><h3>HSV</h3><p>Modelo que separa tono, saturación y valor. <strong>Ejemplo:</strong> es útil cuando se quiere conservar el tono y cambiar la intensidad general del color.</p></article>
+          <article><h3>HSL</h3><p>Modelo que separa tono, saturación y luminosidad. <strong>Ejemplo:</strong> sirve para comparar variaciones de un color manteniendo el mismo tono.</p></article>
+          <article><h3>Cmáx y Cmín</h3><p>Son el valor normalizado mayor y menor entre R, G y B. <strong>Ejemplo:</strong> en RGB(64, 128, 192), Cmáx es el azul y Cmín es el rojo.</p></article>
+          <article><h3>Delta</h3><p>Es la diferencia entre Cmáx y Cmín. <strong>Ejemplo:</strong> si los tres canales son iguales, delta vale 0.</p></article>
+          <article><h3>Acromático</h3><p>Describe un color sin tono definido, como negro, blanco o gris. <strong>Ejemplo:</strong> RGB(128, 128, 128) es acromático porque R = G = B.</p></article>
+          <article><h3>Diseño responsivo</h3><p>Es una forma de diseñar una página para que se adapte a varias pantallas. <strong>Ejemplo:</strong> este museo se reorganiza en columnas o una sola columna según el ancho de la pantalla.</p></article>
+        </div>
+      </section>
+
+      <section id="conclusion" class="section-cream wave-divider">
+        <div class="section-heading">
+          <p class="kicker">Sección 6</p>
+          <h2>Cierre</h2>
+        </div>
+        <article class="reflection-card">
+          <p><strong>Idea inicial:</strong> al principio veía la graficación por computadora sobre todo como imágenes hechas por una computadora, pero no entendía con claridad todo lo que hay detrás de mostrar, editar o interpretar información visual.</p>
+          <p><strong>Evidencia que cambió mi idea:</strong> la comparación entre los cinco momentos históricos, el análisis de la ruta en mapas, el laboratorio de color y el algoritmo RGB → HSV me mostraron que la graficación no solo se trata de “dibujar”, sino de representar datos, organizar información y hacer posible la interacción.</p>
+          <p><strong>Conclusión personal:</strong> ahora entiendo que la evolución gráfica resolvió problemas concretos: primero hacer visible la información, después manipularla, luego guardar detalles por píxel, acelerar la respuesta en tiempo real y finalmente llevar gráficos interactivos al navegador. También aprendí que un mismo color puede describirse con distintos modelos y que un algoritmo ayuda a convertir observaciones en pasos verificables.</p>
+          <p><strong>Bitácora de uso de IA:</strong> usé IA para organizar ideas, revisar redacción, aclarar dudas y proponer una forma más clara de explicar algunos conceptos. Después confirmé los resultados con mis cálculos, con las actividades y con las pruebas del simulador.</p>
+        </article>
+      </section>
+
+      <section id="fuentes" class="section-pink wave-divider">
+        <div class="section-heading">
+          <p class="kicker">Sección 7</p>
+          <h2>Fuentes y créditos</h2>
+          <p>
+            Las ilustraciones en formato SVG incluidas en esta página fueron elaboradas para este proyecto a
+            partir de la información investigada. Las siguientes fuentes respaldan el contenido consultado.
+          </p>
+        </div>
+
+        <div class="sources-layout">
+          <article class="info-card">
+            <h3>Fuentes de contenido</h3>
+            <ol class="sources-list">
+              <li>Computer History Museum. <em>Timeline of Computer Graphics and Games</em>. Consultado en septiembre de 2026.</li>
+              <li>Wikipedia. <em>Sketchpad</em>. https://en.wikipedia.org/wiki/Sketchpad</li>
+              <li>Hispaprint. <em>Historia del diseño gráfico: Sketchpad, el primer editor gráfico</em>. https://hispaprint.com/blog/disenografico/ha-del-diseno-grafico-sketchpad-el-primer-editor-grafico</li>
+              <li>Adobe. <em>Raster vs. vector: ¿cuál es la diferencia?</em> https://www.adobe.com/mx/creativecloud/file-types/image/comparison/raster-vs-vector.html</li>
+              <li>IBM. <em>¿Qué es una GPU?</em> https://www.ibm.com/mx-es/think/topics/gpu</li>
+              <li>Servers.com. <em>Why latency and ping in gaming are crucial to player experience</em>. https://www.servers.com/blog/why-latency-and-ping-in-gaming-are-crucial-to-player-experience</li>
+              <li>HP Tech Takes. <em>¿Qué son los FPS y cómo optimizarlos?</em> https://www.hp.com/pe-es/tech-takes/gaming/conceptos/que-son-fps-y-como-optimizar.html</li>
+              <li>FSP Group. <em>What is GPU?</em> https://www.fsp-group.com/en/knowledge-prd-78.html</li>
+              <li>MDN Web Docs. <em>Getting started with WebGL</em>. https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL</li>
+              <li>Google Maps Help. <em>Obtener instrucciones y mostrar rutas</em>. https://support.google.com/maps/answer/144339?hl=es-419</li>
+              <li>MDN Web Docs. <em>Pixel manipulation with canvas</em>. https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas</li>
+              <li>W3C. <em>CSS Color Module Level 4</em>. https://www.w3.org/TR/css-color-4/</li>
+            </ol>
+          </article>
+
+          <article class="info-card">
+            <h3>Créditos de imágenes</h3>
+            <ul class="credits-list">
+              <li><strong>01-plotter-visual.svg:</strong> elaboración propia para representar la salida gráfica mediante un trazador.</li>
+              <li><strong>02-sketchpad.svg:</strong> elaboración propia inspirada en la interacción directa de Sketchpad con pantalla CRT y lápiz óptico.</li>
+              <li><strong>03-raster.svg:</strong> elaboración propia para representar una imagen rasterizada y su cuadrícula de píxeles.</li>
+              <li><strong>04-gpu.svg:</strong> elaboración propia para representar una GPU y gráficos en tiempo real.</li>
+              <li><strong>05-webgl.svg:</strong> elaboración propia para representar Canvas y WebGL dentro del navegador.</li>
+              <li><strong>mapa-rutas.svg:</strong> elaboración propia con base en la muestra local de la actividad B.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Museo Web de la Evolución Gráfica · Saraí Ceballos</p>
+    </footer>
+  </body>
+</html>

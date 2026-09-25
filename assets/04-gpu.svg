@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-labelledby="t d">
+  <title id="t">GPU y gráficos en tiempo real</title>
+  <desc id="d">Tarjeta gráfica conectada a una pantalla con una escena de videojuego y un indicador de cuadros por segundo.</desc>
+  <rect width="900" height="520" rx="28" fill="#111c28"/>
+  <rect x="90" y="110" width="330" height="210" rx="24" fill="#173042" stroke="#44d4ba" stroke-width="4"/>
+  <rect x="118" y="138" width="274" height="154" rx="16" fill="#0f1a23"/>
+  <g fill="#44d4ba">
+    <rect x="440" y="90" width="330" height="240" rx="24" fill="#dff9f3" opacity="0.08"/>
+    <rect x="470" y="122" width="270" height="176" rx="18" fill="#1e3344"/>
+    <circle cx="532" cy="180" r="24" fill="#ff6f7f"/>
+    <rect x="585" y="214" width="34" height="46" fill="#ffd46d"/>
+    <polygon points="514,243 548,214 582,243" fill="#5fe7cf"/>
+    <path d="M470 250 Q535 170 607 200 T740 206" fill="none" stroke="#5fe7cf" stroke-width="5"/>
+  </g>
+  <rect x="678" y="148" width="72" height="34" rx="10" fill="#ffcf64"/>
+  <text x="694" y="171" font-family="Arial, sans-serif" font-size="21" fill="#15232f">60 FPS</text>
+  <g fill="#7b95a8">
+    <rect x="118" y="338" width="54" height="14" rx="7"/>
+    <rect x="182" y="338" width="54" height="14" rx="7"/>
+    <rect x="246" y="338" width="54" height="14" rx="7"/>
+    <rect x="310" y="338" width="54" height="14" rx="7"/>
+  </g>
+  <rect x="127" y="152" width="60" height="60" rx="12" fill="#44d4ba" opacity="0.22"/>
+  <rect x="196" y="152" width="60" height="60" rx="12" fill="#44d4ba" opacity="0.16"/>
+  <rect x="265" y="152" width="60" height="60" rx="12" fill="#44d4ba" opacity="0.22"/>
+  <rect x="334" y="152" width="40" height="60" rx="12" fill="#44d4ba" opacity="0.16"/>
+  <rect x="127" y="222" width="247" height="56" rx="12" fill="#9f86ff" opacity="0.26"/>
+  <text x="110" y="86" font-family="Arial, sans-serif" font-size="22" fill="#dff7f1">Procesamiento paralelo para respuesta rápida</text>
+</svg>

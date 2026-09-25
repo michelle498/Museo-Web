@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" role="img" aria-labelledby="t d">
+  <title id="t">Mapa local de rutas</title>
+  <desc id="d">Esquema con dos rutas entre el Museo Comunitario y el Parque del Lago.</desc>
+  <rect width="900" height="620" rx="30" fill="#10202b"/>
+  <rect x="70" y="80" width="760" height="460" rx="26" fill="#e9f1ed"/>
+  <g stroke="#9db4aa" stroke-width="12" stroke-linecap="round">
+    <line x1="150" y1="230" x2="720" y2="230"/>
+    <line x1="150" y1="350" x2="720" y2="350"/>
+    <line x1="200" y1="130" x2="200" y2="430"/>
+    <line x1="410" y1="120" x2="410" y2="440"/>
+    <line x1="640" y1="140" x2="640" y2="450"/>
+  </g>
+  <path d="M160 390 L160 230 L410 230 L640 230 L640 390 L735 390" fill="none" stroke="#2f74ff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160 390 L200 390 L200 350 L410 350 L410 230 L640 230 L640 390 L735 390" fill="none" stroke="#ff8d3a" stroke-width="16" stroke-dasharray="18 15" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="160" cy="390" r="28" fill="#006c63"/>
+  <circle cx="735" cy="390" r="28" fill="#c74545"/>
+  <text x="150" y="398" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">O</text>
+  <text x="726" y="398" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">D</text>
+  <text x="100" y="468" font-family="Arial, sans-serif" font-size="22" fill="#17313d">Museo Comunitario</text>
+  <text x="640" y="468" font-family="Arial, sans-serif" font-size="22" fill="#17313d">Parque del Lago</text>
+  <text x="119" y="214" font-family="Arial, sans-serif" font-size="20" fill="#17313d">Calle del Museo</text>
+  <text x="291" y="214" font-family="Arial, sans-serif" font-size="20" fill="#17313d">Avenida Central</text>
+  <text x="615" y="214" font-family="Arial, sans-serif" font-size="20" fill="#17313d">Paseo del Lago</text>
+  <text x="225" y="336" font-family="Arial, sans-serif" font-size="20" fill="#17313d">Calle del Olmo</text>
+  <text x="458" y="336" font-family="Arial, sans-serif" font-size="20" fill="#17313d">Calle del Bosque</text>
+  <rect x="104" y="102" width="154" height="40" rx="20" fill="#2f74ff" opacity="0.14"/>
+  <text x="126" y="129" font-family="Arial, sans-serif" font-size="22" fill="#17313d">Ruta A · continua</text>
+  <rect x="565" y="102" width="180" height="40" rx="20" fill="#ff8d3a" opacity="0.18"/>
+  <text x="584" y="129" font-family="Arial, sans-serif" font-size="22" fill="#17313d">Ruta B · discontinua</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-labelledby="t d">
+  <title id="t">Canvas y WebGL en el navegador</title>
+  <desc id="d">Ventana de navegador con una gráfica 2D y un cubo 3D que simbolizan Canvas y WebGL.</desc>
+  <rect width="900" height="520" rx="28" fill="#102030"/>
+  <rect x="80" y="82" width="740" height="356" rx="22" fill="#f8f5eb"/>
+  <rect x="80" y="82" width="740" height="42" rx="22" fill="#dce7ef"/>
+  <circle cx="112" cy="103" r="8" fill="#ff737d"/>
+  <circle cx="136" cy="103" r="8" fill="#ffd46b"/>
+  <circle cx="160" cy="103" r="8" fill="#4ad6bf"/>
+  <rect x="118" y="156" width="288" height="226" rx="18" fill="#122637"/>
+  <path d="M145 333 C180 297, 236 220, 286 247 S364 324, 385 196" fill="none" stroke="#4ad6bf" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="385" cy="196" r="7" fill="#4ad6bf"/>
+  <rect x="470" y="156" width="234" height="226" rx="18" fill="#112536"/>
+  <g transform="translate(590 220)">
+    <polygon points="0,-62 58,-32 0,-2 -58,-32" fill="#6893ff"/>
+    <polygon points="-58,-32 0,-2 0,62 -58,32" fill="#3ecfb7"/>
+    <polygon points="58,-32 0,-2 0,62 58,32" fill="#8ea7ff"/>
+    <polygon points="0,-62 0,-2 58,-32 58,-92" fill="#5a78f0" transform="translate(0 30)" opacity="0.25"/>
+  </g>
+  <text x="150" y="192" font-family="Arial, sans-serif" font-size="22" fill="#effaff">Canvas 2D</text>
+  <text x="546" y="192" font-family="Arial, sans-serif" font-size="22" fill="#effaff">WebGL 3D</text>
+  <text x="115" y="63" font-family="Arial, sans-serif" font-size="22" fill="#dff7f1">Gráficos interactivos sin complementos</text>
+</svg>
